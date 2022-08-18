@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(51, 218, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    display: inline-block;
+
+}
+
+.div1{
+    border: 1px solid rgb(29, 87, 246);
+    height: 450px;
+    width: 320px; 
+    border-spacing:0px;
+    border-radius: 9px 0px 0px 9px;
+    padding: 10px;
+    background-color: rgb(29, 86, 245);
+    color:white 
+}
+.div2{
+    border: 1px solid rgb(247, 247, 249);
+    height: 450px; 
+    width: 320px;
+    border-radius: 0px 9px 9px 0px;
+    padding: 10px;
+    background-color: azure;
+    border-spacing: 0px;
+}
+.hower:hover {
+  color: rgb(241, 195, 12);background-color: rgb(68, 102, 253);box-shadow:rgb(8, 213, 250) 2px 2px;
+}
